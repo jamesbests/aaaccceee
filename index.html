@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>ACE489 เว็บตรง ระบบออโต้ ฝากถอน 24 ชั่วโมง</title>
+<meta name="description" content="ACE489 เว็บตรง ระบบออโต้ ฝากถอนรวดเร็ว รองรับทรูวอลเล็ท">
+
+<!-- Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WNM8HPJ1NX"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-WNM8HPJ1NX');
+</script>
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Font -->
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" href="images/ACE489 logos.png" type="image/png">
+
+<style>
+body{
+    font-family:'Kanit',sans-serif;
+    background:#000;
+}
+
+.gold-bg{
+    background:
+    radial-gradient(circle at top,#7c5a1d 0%,transparent 40%),
+    radial-gradient(circle at bottom,#b8860b 0%,transparent 35%),
+    #000;
+}
+
+.glow-btn{
+    animation:pulseGlow 2s infinite;
+}
+
+@keyframes pulseGlow{
+    0%{box-shadow:0 0 10px rgba(255,215,0,.3);}
+    50%{box-shadow:0 0 25px rgba(255,215,0,.8);}
+    100%{box-shadow:0 0 10px rgba(255,215,0,.3);}
+}
+
+.float{
+    animation:float 4s ease-in-out infinite;
+}
+
+@keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-8px);}
+}
+</style>
+</head>
+
+<body class="gold-bg text-white min-h-screen">
+
+<div class="container mx-auto px-4 max-w-xl">
+
+    <!-- Logo -->
+    <div class="pt-10 flex justify-center">
+        <img
+            src="images/ACE489 logo.png"
+            alt="ACE489"
+            class="w-24 h-24 rounded-full border border-yellow-500 float">
+    </div>
+
+    <!-- Heading -->
+    <div class="text-center mt-6">
+        <h1 class="text-4xl font-bold bg-gradient-to-r from-yellow-300 to-yellow-100 bg-clip-text text-transparent">
+            ACE489
+        </h1>
+
+        <p class="mt-4 text-lg text-yellow-100">
+            เว็บตรง ระบบออโต้ ฝากถอนรวดเร็ว
+        </p>
+
+        <p class="text-yellow-200">
+            รองรับทุกธนาคาร • True Wallet • USDT
+        </p>
+
+        <p class="text-yellow-200">
+            แอดมินดูแลตลอด 24 ชั่วโมง
+        </p>
+    </div>
+
+    <!-- Register Button -->
+    <div class="mt-8">
+        <a
+            href="https://ace489.net/?action=register"
+            target="_blank"
+            rel="noopener noreferrer"
+            onclick="gtag('event','click_register',{
+                event_category:'conversion',
+                event_label:'ace489_register'
+            });"
+            class="block text-center py-4 px-6 rounded-2xl font-bold text-black text-lg bg-gradient-to-r from-yellow-500 via-yellow-300 to-yellow-500 glow-btn hover:scale-105 transition">
+
+            💗 สมัครสมาชิกรับเครดิตฟรี คลิกเลย !!
+        </a>
+    </div>
+
+    <!-- Promotion Images -->
+    <div class="mt-8 space-y-4">
+
+        <div class="overflow-hidden rounded-2xl border border-yellow-700">
+            <img
+                src="images/pro-01.jpg"
+                alt="Promotion 1"
+                class="w-full">
+        </div>
+
+        <div class="overflow-hidden rounded-2xl border border-yellow-700">
+            <img
+                src="images/pro-02.jpg"
+                alt="Promotion 2"
+                class="w-full">
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-400 py-10">
+        © <span id="year"></span> ACE489 All Rights Reserved.
+    </footer>
+
+</div>
+
+<script>
+document.getElementById('year').textContent =
+new Date().getFullYear();
+</script>
+
+</body>
+</html>
